@@ -3,10 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 html, body {
-  width: 100vw;
-  height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .loading{
@@ -90,8 +89,33 @@ nav ul{
   content: "";
   position: absolute;
   top: 0;
-  width: 105%;
-  height: 110%;
   background-color: #fff;
-  top: 80px;
+  width: 0px;
+  height: 0px;
+}
+
+.not-active{
+  display: none;
+}
+
+/* General style */
+header{
+  position: fixed;
+  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  z-index: 20;
+}
+header .logo{
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000;
+}
+ul li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  color: #000;
+  font-weight: 500;
 }
