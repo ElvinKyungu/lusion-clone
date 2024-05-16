@@ -101,7 +101,7 @@ nav ul{
 /* General style */
 header{
   position: fixed;
-  padding: 2rem 5rem;
+  padding: 2rem 0rem;
   display: flex;
   align-items: center;
   z-index: 20;

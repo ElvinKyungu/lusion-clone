@@ -1,4 +1,3 @@
-gsap.registerPlugin(TextPlugin)
 document.addEventListener("DOMContentLoaded", ()=>{
   const thirdCounter = document.querySelector(".third-counter")
   for(let i = 0; i < 2; i++){
